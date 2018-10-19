@@ -1,5 +1,7 @@
 FROM alpine:3.8
 
+LABEL MAINTAINER="Ray Wang (raywang@exosite.com)"
+
 WORKDIR /
 
 RUN apk add --update \
