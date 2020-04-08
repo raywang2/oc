@@ -13,7 +13,7 @@
 3. Using `oc`!
 
     ```bash
-    $ oc version
-    > oc v1.2.2
-    > kubernetes v1.2.0-36-g4a3f9c5
+    $ oc v1.5.1+7b451fc
+    > kubernetes v1.5.2+43a9be4
+    > features: Basic-Auth GSSAPI Kerberos SPNEGO
     ```
