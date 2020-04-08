@@ -9,10 +9,10 @@ RUN apk add --update \
   libc6-compat \
   wget && \
   wget -q -O openshift.tar.gz \
-  https://github.com/openshift/origin/releases/download/v1.1.6/openshift-origin-client-tools-v1.1.6-ef1caba-linux-64bit.tar.gz && \
+  https://github.com/openshift/origin/releases/download/v1.2.2/openshift-origin-client-tools-v1.2.2-565691c-linux-64bit.tar.gz && \
   tar xvf openshift.tar.gz && \
-  mv openshift-origin-client-tools-v1.1.6-ef1caba-linux-64bit/oc /bin/oc && \
-  rm -rf openshift.tar.gz openshift-origin-client-tools-v1.1.6-ef1caba-linux-64bit && \
+  mv openshift-origin-client-tools-v1.2.2-565691c-linux-64bit/oc /bin/oc && \
+  rm -rf openshift.tar.gz openshift-origin-client-tools-v1.2.2-565691c-linux-64bit && \
   apk del wget
 
 VOLUME /root/.kube
